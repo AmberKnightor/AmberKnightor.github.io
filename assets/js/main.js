@@ -25,6 +25,7 @@
     frame.allow = 'accelerometer; encrypted-media; gyroscope; picture-in-picture';
     frame.allowFullscreen = true;
     frame.loading = 'lazy';
+    frame.referrerPolicy = 'strict-origin-when-cross-origin';
     slot.innerHTML = '';
     slot.appendChild(frame);
     slot.classList.add('has-video');

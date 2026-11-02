@@ -6,16 +6,18 @@ Report checker, Convertstp, Drawer and the Tekla deployment macros.
 - `index.html` — the page, `assets/css/style.css`, `assets/js/main.js`
 - `assets/img/` — screenshots (the real programs with their UI switched to English) and macro icons
 
-## Adding a video
+Live at https://amberknightor.github.io/
 
-Each tool has a placeholder:
+## Changing a video
+
+Each tool has a slot with the YouTube video id:
 
 ```html
-<div class="video-slot" data-youtube="" data-title="Report checker walkthrough">
+<div class="video-slot" data-youtube="R72VR7GYjIA" data-title="Report checker walkthrough">
 ```
 
-Put the YouTube video id into `data-youtube` (for `https://youtu.be/AbC123xyz` it is `AbC123xyz`)
-and the player replaces the placeholder.
+Replace the id in `data-youtube` and the link inside the slot (for `https://youtu.be/AbC123xyz` the id is
+`AbC123xyz`).
 
 ## Local preview
 

@@ -7,9 +7,17 @@
 <meta name="description" content="Tekla Open API tools, plugins and macros that cut the factory export from 2–3 hours to about 30 minutes per designer.">
 <meta property="og:title" content="AmberKnightor — Tekla Structures Developer">
 <meta property="og:description" content="Tekla Open API tools, plugins and macros: factory export from 2–3 hours down to ~30 minutes per designer.">
-<meta property="og:image" content="assets/img/otchet-ui.png">
+<link rel="canonical" href="https://amberknightor.github.io/">
+<meta property="og:url" content="https://amberknightor.github.io/">
+<meta property="og:image" content="https://amberknightor.github.io/assets/img/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AmberKnightor, Tekla Structures developer: factory export from 2–3 hours to about 30 minutes">
 <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" href="assets/img/logo-ak.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -21,12 +29,13 @@
   <div class="wrap nav-row">
     <a class="brand" href="#top"><img class="brand-logo" src="assets/img/logo-ak.svg" alt="" width="38" height="38"> AmberKnightor</a>
     <nav class="nav-links">
-      <a href="#workflow">Workflow</a>
+      <a href="#services">Services</a>
+      <a href="#case">Case study</a>
       <a href="#tools">Tools</a>
       <a href="#tekla">Tekla integration</a>
-      <a href="#plugins">Plugins</a>
-      <a href="#stack">Stack</a>
-      <a class="btn btn-small" href="https://t.me/AmberKnightor" target="_blank" rel="noopener">Contact</a>
+      <a href="#faq">FAQ</a>
+      <a href="#about">About</a>
+      <a class="btn btn-small" href="#contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -38,17 +47,19 @@
   <div class="wrap hero-grid">
     <div>
       <p class="eyebrow">Tekla Structures · Open API · C# · Python</p>
-      <p class="intro"><span class="wave" aria-hidden="true">👋</span> Hi! I’m <b>Dima</b>. For more than 10 years I worked
-        as a steel structures designer in Tekla, so I know from the inside every problem that comes up while
-        building models and releasing data to the factory. That is why I now build plugins, applications and
-        macros that automate and simplify work in Tekla Structures.</p>
+      <p class="intro"><span class="wave" aria-hidden="true">👋</span> Hi! I’m <b>Dima</b>. I spent almost 10 years as a
+        steel structures designer in Tekla, so I know from the inside every problem that comes up while
+        building models and releasing data to the factory. For the last 3 years I have been building plugins,
+        applications and macros that automate and simplify work in Tekla Structures.</p>
       <h1>Tekla developer who turns a <span class="hl">3-hour factory export</span> into a 30-minute routine.</h1>
       <p class="lead">I build desktop tools, plugins and macros on the Tekla Open API for a steel-structures
         design team: DXF for plate cutting, STEP for tube lasers, assembly drawings, reports and
         cross-checks — generated from the model and deployed to every workstation from one server folder.</p>
       <div class="hero-cta">
-        <a class="btn" href="#tools">See the tools</a>
-        <a class="btn btn-ghost" href="https://t.me/AmberKnightor" target="_blank" rel="noopener">Telegram @AmberKnightor</a>
+        <a class="btn" href="mailto:kwazamentor@gmail.com">Email me</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/dmitriy-kalinin-3915b3165/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/AmberKnightor" target="_blank" rel="noopener">GitHub</a>
+        <a class="cta-link" href="#tools">See the tools ↓</a>
       </div>
     </div>
 
@@ -70,6 +81,28 @@
   </div>
 </section>
 
+<!-- ============================================================ AUDIENCE -->
+<section class="section" id="audience">
+  <div class="wrap">
+    <h2>Who this is for</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Manufacturers with laser cutting</h3>
+        <p>Plate and tube cutting files come straight from the model, and quantities are checked before anything
+          reaches the machine.</p>
+      </div>
+      <div class="card">
+        <h3>Detailing offices</h3>
+        <p>Drawings, parts lists and factory packages go out in less time, with fewer manual steps to get wrong.</p>
+      </div>
+      <div class="card">
+        <h3>Teams working in Tekla</h3>
+        <p>Repetitive work is automated, and everyone on the team uses the same tools and the same standards.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ============================================================ PROBLEM -->
 <section class="section" id="problem">
   <div class="wrap two-col">
@@ -86,6 +119,73 @@
       <li><b>Drawings</b> — assembly and bent-plate drawings with views, sections and dimensions</li>
       <li><b>Reports</b> — BOMs as real .xlsx, every file checked against the BOM before it ships</li>
     </ul>
+  </div>
+</section>
+
+<!-- ============================================================ CASE STUDY -->
+<section class="section alt" id="case">
+  <div class="wrap">
+    <h2>Case study: a steel structures design team</h2>
+    <p class="section-lead">How the release of data to the factory went from a half-day job to a short routine.</p>
+    <div class="case-steps">
+      <div class="card">
+        <p class="case-label">Task</p>
+        <p>Every step was done by hand or spread across several programs. Plate drawings were created, marks were
+          moved by hand and then printed. Tubes went through Tekla’s built-in MultiConverter, then through
+          Grasshopper scripts to straighten skewed cuts and add engraving. Assembly drawings were built one by one.</p>
+      </div>
+      <div class="card">
+        <p class="case-label">Solution</p>
+        <p>Three connected tools started from inside Tekla: Report checker for plates and parts lists, Convertstp
+          for tubes, Drawer for drawings. Skewed cuts are straightened and part marks engraved automatically, and
+          the output is compared with the parts lists, so a person no longer has to catch a mismatch by eye.</p>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="case-table">
+        <thead>
+          <tr><th scope="col">Step</th><th scope="col">Batch</th><th scope="col">Before</th><th scope="col">After</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Plate cutting files</th><td>300 plates</td><td>≈ 30 min</td><td class="after">≈ 6 min <small>5 min automatic, 1 min review that is rarely needed</small></td></tr>
+          <tr><th scope="row">Tube cutting files</th><td>140 tubes</td><td>≈ 1 hour</td><td class="after">≈ 10 min <small>straightening and engraving included</small></td></tr>
+          <tr><th scope="row">Assembly drawings</th><td>100 assemblies</td><td>≈ 2 hours</td><td class="after">≈ 10 min <small>nearly finished drawings</small></td></tr>
+        </tbody>
+        <tfoot>
+          <tr><th scope="row">All three</th><td></td><td>≈ 3.5 hours</td><td class="after">≈ 26 min</td></tr>
+        </tfoot>
+      </table>
+    </div>
+    <p class="case-note"><b>How to read these numbers.</b> They are practical estimates from production work for
+      batches of the sizes shown, not a timed study, and your own results will depend on the model. The 2–3 hours
+      at the top of this page is the usual full export for one designer; a release with all three batches at these
+      sizes takes longer.</p>
+  </div>
+</section>
+
+<!-- ============================================================ SERVICES -->
+<section class="section" id="services">
+  <div class="wrap">
+    <h2>What I can do for you</h2>
+    <p class="section-lead">Most projects start small, so you can judge the result on your own parts before
+      committing to more.</p>
+    <div class="cards">
+      <div class="card service">
+        <p class="case-label">Start here</p>
+        <h3>Pilot project</h3>
+        <p>1–2 weeks with a clear result, for example DXF or STEP files generated from 5–10 of your parts.</p>
+      </div>
+      <div class="card service">
+        <h3>Development for your process</h3>
+        <p>Exports, drawings, reports, checks, plugins and macros built around how your team and factory
+          actually work.</p>
+      </div>
+      <div class="card service">
+        <h3>Support and updates</h3>
+        <p>Fixes, changes as your process evolves, and updates for new versions of Tekla.</p>
+      </div>
+    </div>
+    <p class="service-cta"><a class="btn" href="mailto:kwazamentor@gmail.com?subject=Tekla%20pilot%20project">Discuss a pilot</a></p>
   </div>
 </section>
 
@@ -176,9 +276,8 @@
         <a href="assets/img/otchet-viewer.png" class="zoom"><img src="assets/img/otchet-viewer.png" alt="DXF viewer with plate contour, holes and the position mark" loading="lazy"></a>
         <figcaption>Built-in DXF viewer: every plate in the cutting folder, marks checked for collisions.</figcaption>
       </figure>
-      <div class="video-slot" data-youtube="" data-title="Report checker walkthrough">
-        <span class="video-icon">▶</span>
-        <p><b>Video walkthrough</b><br>coming soon</p>
+      <div class="video-slot" data-youtube="R72VR7GYjIA" data-title="Report checker walkthrough">
+        <a href="https://www.youtube.com/watch?v=R72VR7GYjIA" target="_blank" rel="noopener">Watch the walkthrough on YouTube</a>
       </div>
     </div>
   </article>
@@ -218,9 +317,8 @@
         <a href="assets/img/convertstp-engraving.png" class="zoom"><img src="assets/img/convertstp-engraving.png" alt="Engraving batch preview with tube faces and part marks" loading="lazy"></a>
         <figcaption>Engraving batch preview: tube faces to scale with the engraved part marks.</figcaption>
       </figure>
-      <div class="video-slot" data-youtube="" data-title="Convertstp walkthrough">
-        <span class="video-icon">▶</span>
-        <p><b>Video walkthrough</b><br>coming soon</p>
+      <div class="video-slot" data-youtube="OGKl_QOARAg" data-title="Convertstp walkthrough">
+        <a href="https://www.youtube.com/watch?v=OGKl_QOARAg" target="_blank" rel="noopener">Watch the walkthrough on YouTube</a>
       </div>
     </div>
   </article>
@@ -261,9 +359,8 @@
         <a href="assets/img/drawer-bent.png" class="zoom"><img src="assets/img/drawer-bent.png" alt="Bent plate drawing with unfolded shape, bend line and radius" loading="lazy"></a>
         <figcaption>Bent plate: unfolded shape with the bend line, side views with radius, 3D view.</figcaption>
       </figure>
-      <div class="video-slot" data-youtube="" data-title="Drawer walkthrough">
-        <span class="video-icon">▶</span>
-        <p><b>Video walkthrough</b><br>coming soon</p>
+      <div class="video-slot" data-youtube="fczEOQlvuvE" data-title="Drawer walkthrough">
+        <a href="https://www.youtube.com/watch?v=fczEOQlvuvE" target="_blank" rel="noopener">Watch the walkthrough on YouTube</a>
       </div>
     </div>
   </article>
@@ -398,15 +495,61 @@
   </div>
 </section>
 
+<!-- ============================================================ FAQ -->
+<section class="section" id="faq">
+  <div class="wrap faq">
+    <h2>FAQ</h2>
+    <details open>
+      <summary>Which Tekla versions do you support?</summary>
+      <p>All versions of Tekla Structures from 2016 onward.</p>
+    </details>
+    <details>
+      <summary>Do you need access to our model? Will you sign an NDA?</summary>
+      <p>A pilot only needs the 5–10 parts it covers, not your full model. If your data is confidential, tell me
+        in your first message and we will agree the NDA before you send anything.</p>
+    </details>
+    <details>
+      <summary>Who owns the code?</summary>
+      <p>Ownership and usage rights are agreed in writing before work starts.</p>
+    </details>
+    <details>
+      <summary>How does payment work?</summary>
+      <p>Scope, price and payment terms are agreed for each project before work starts.</p>
+    </details>
+    <details>
+      <summary>What language do you work in?</summary>
+      <p>English and Russian.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ============================================================ ABOUT -->
+<section class="section alt" id="about">
+  <div class="wrap about-grid">
+    <!-- To use a portrait: save it as assets/img/photo.jpg and point this src at it -->
+    <img class="about-photo" src="assets/img/logo-ak.svg" alt="" width="160" height="160">
+    <div>
+      <h2>About me</h2>
+      <p class="about-name">Dmitriy Kalinin</p>
+      <p>Almost 10 years as a steel structures designer in Tekla and 3 years as a Tekla developer. I build these
+        tools from the point of view of the person who has to release the data to the factory on time.</p>
+      <p>Want to see how the code looks? <a href="https://github.com/AmberKnightor/tekla-plate-dxf-export" target="_blank" rel="noopener">tekla-plate-dxf-export</a>
+        on GitHub is a small working sample: plate export from Tekla to DXF.</p>
+    </div>
+  </div>
+</section>
+
 <!-- ============================================================ CONTACT -->
 <section class="section contact" id="contact">
   <div class="wrap contact-box">
     <h2>Need Tekla automation?</h2>
     <p>Exports, drawings, reports, plugins or a deployment that just works for the whole team — let’s talk.</p>
     <div class="contact-actions">
-      <a class="btn" href="https://t.me/AmberKnightor" target="_blank" rel="noopener">Telegram @AmberKnightor</a>
-      <a class="btn btn-light" href="mailto:kwazamentor@gmail.com">kwazamentor@gmail.com</a>
+      <a class="btn" href="mailto:kwazamentor@gmail.com">kwazamentor@gmail.com</a>
+      <a class="btn btn-light" href="https://www.linkedin.com/in/dmitriy-kalinin-3915b3165/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-light" href="https://github.com/AmberKnightor" target="_blank" rel="noopener">GitHub</a>
     </div>
+    <p class="contact-alt">Prefer a chat? <a href="https://t.me/AmberKnightor" target="_blank" rel="noopener">Telegram @AmberKnightor</a></p>
   </div>
 </section>
 
