@@ -63,6 +63,15 @@ h3 { font-size: 1.15rem; }
 .nav-links a { color: var(--muted); text-decoration: none; font-weight: 500; font-size: .95rem; }
 .nav-links a:hover { color: var(--text); }
 @media (max-width: 860px) { .nav-links a:not(.btn) { display: none; } }
+html[lang="ru"] .nav-links { gap: 18px; }
+@media (max-width: 1060px) { html[lang="ru"] .nav-links a:not(.btn) { display: none; } }
+.lang-switch { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden;
+  font-size: .82rem; font-weight: 700; line-height: 1; }
+.lang-switch > * { padding: .45em .7em; }
+.lang-switch > span { background: var(--text); color: var(--bg); }
+.nav-links .lang-switch a { display: inline-block !important; color: var(--muted); font-size: .82rem; font-weight: 700; }
+@media (max-width: 440px) { .brand-name { display: none; } .nav-links { gap: 12px; } }
+.nav-links .lang-switch a:hover { color: var(--text); background: var(--bg-alt); }
 
 .btn {
   display: inline-block; padding: .8em 1.3em; border-radius: 10px; font-weight: 700;

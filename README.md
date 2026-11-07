@@ -6,7 +6,8 @@ Report checker, Convertstp, Drawer and the Tekla deployment macros.
 - `index.html` — the page, `assets/css/style.css`, `assets/js/main.js`
 - `assets/img/` — screenshots (the real programs with their UI switched to English) and macro icons
 
-Live at https://amberknightor.github.io/
+Live at https://amberknightor.github.io/ (English) and https://amberknightor.github.io/ru/ (Russian).
+`ru/index.html` is a full Russian copy of the page: when you change text in one language, change the other too.
 
 ## Changing a video
 

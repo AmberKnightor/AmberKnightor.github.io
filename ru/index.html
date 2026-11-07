@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AmberKnightor — разработчик для Tekla Structures</title>
+<meta name="description" content="Инструменты, плагины и макросы на Tekla Open API, которые сокращают выдачу в производство примерно с 3,5 часа до 30 минут на одного конструктора.">
+<meta property="og:title" content="AmberKnightor — разработчик для Tekla Structures">
+<meta property="og:description" content="Инструменты, плагины и макросы на Tekla Open API: выдача в производство примерно за 30 минут вместо 3,5 часа на одного конструктора.">
+<link rel="canonical" href="https://amberknightor.github.io/ru/">
+<link rel="alternate" hreflang="en" href="https://amberknightor.github.io/">
+<link rel="alternate" hreflang="ru" href="https://amberknightor.github.io/ru/">
+<link rel="alternate" hreflang="x-default" href="https://amberknightor.github.io/">
+<meta property="og:url" content="https://amberknightor.github.io/ru/">
+<meta property="og:image" content="https://amberknightor.github.io/assets/img/og-card-ru.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AmberKnightor, разработчик для Tekla Structures: выдача в производство за 30 минут вместо 3,5 часа">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="icon" href="../assets/img/logo-ak.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-row">
+    <a class="brand" href="#top"><img class="brand-logo" src="../assets/img/logo-ak.svg" alt="Логотип AK" width="38" height="38"> <span class="brand-name">AmberKnightor</span></a>
+    <nav class="nav-links">
+      <a href="#services">Услуги</a>
+      <a href="#case">Кейс</a>
+      <a href="#tools">Инструменты</a>
+      <a href="#tekla">Интеграция с Tekla</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#about">Обо мне</a>
+      <a class="btn btn-small" href="#contact">Связаться</a>
+      <span class="lang-switch" aria-label="Язык"><a href="../" hreflang="en" lang="en" title="English version">EN</a><span aria-current="true">RU</span></span>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============================================================ HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Tekla Structures · Open API · C# · Python</p>
+      <p class="intro"><span class="wave" aria-hidden="true">👋</span> Привет! Я <b>Дима</b>. Почти 10 лет я работал
+        конструктором металлоконструкций в Tekla, поэтому изнутри знаю все проблемы, которые возникают при
+        моделировании и выдаче данных в производство. Последние 3 года я разрабатываю плагины, приложения и
+        макросы, которые автоматизируют и упрощают работу в Tekla Structures.</p>
+      <h1>Разработчик для Tekla: выдача в производство за <span class="hl">30 минут</span> вместо 3,5 часа.</h1>
+      <p class="lead">Я делаю настольные программы, плагины и макросы на Tekla Open API для команды
+        конструкторов металлоконструкций: DXF для раскроя листа, STEP для трубореза, сборочные чертежи, ведомости
+        и сверки — всё формируется из модели и раздаётся на каждое рабочее место из одной папки на сервере.</p>
+      <div class="hero-cta">
+        <a class="btn" href="mailto:kwazamentor@gmail.com">Написать на почту</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/dmitriy-kalinin-3915b3165/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/AmberKnightor" target="_blank" rel="noopener">GitHub</a>
+        <a class="cta-link" href="#tools">Смотреть инструменты ↓</a>
+      </div>
+    </div>
+
+    <div class="impact card">
+      <p class="impact-title">Одна выдача в производство, один конструктор</p>
+      <div class="bar-row">
+        <span class="bar-label">До</span>
+        <div class="bar"><div class="bar-fill before" style="--w:100%"><span>≈ 3,5 часа</span></div></div>
+      </div>
+      <div class="bar-row">
+        <span class="bar-label">После</span>
+        <div class="bar"><div class="bar-fill after" style="--w:14%"><span>≈ 30 мин</span></div></div>
+      </div>
+      <div class="impact-stats">
+        <div><strong>≈ 7×</strong><span>быстрее: около 3 часов экономии на каждой выдаче</span></div>
+        <div><strong>90–120 ч</strong><span>экономии в месяц на команду из 10 конструкторов</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ AUDIENCE -->
+<section class="section" id="audience">
+  <div class="wrap">
+    <h2>Для кого это</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Заводы с лазерной резкой</h3>
+        <p>Файлы для раскроя листа и труб формируются прямо из модели, а количество проверяется до того, как
+          что-либо попадёт на станок.</p>
+      </div>
+      <div class="card">
+        <h3>Конструкторские бюро</h3>
+        <p>Чертежи, ведомости и комплекты для производства выпускаются быстрее и с меньшим числом ручных
+          операций, в которых можно ошибиться.</p>
+      </div>
+      <div class="card">
+        <h3>Команды, работающие в Tekla</h3>
+        <p>Рутина автоматизирована, и вся команда работает одними инструментами и по одним стандартам.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ PROBLEM -->
+<section class="section" id="problem">
+  <div class="wrap two-col">
+    <div>
+      <h2>Проблема</h2>
+      <p>Каждая выдача металлоконструкций уходит на завод комплектом: контуры листовых деталей для
+        плазменной или лазерной резки, геометрия труб для трубореза, сборочные чертежи, ведомости и бирки
+        отправочных марок. Если делать это вручную в Tekla, это часы выгрузки, переименования, раскладывания по
+        папкам и сверки количества — а одна пропущенная деталь останавливает производство.</p>
+    </div>
+    <ul class="checklist">
+      <li><b>Листы</b> — DXF на каждую позицию с читаемой маркой, по маркам стали и толщинам</li>
+      <li><b>Трубы</b> — STEP/IGES в локальных координатах, косые резы приведены к технологичным, марка гравируется</li>
+      <li><b>Чертежи</b> — сборочные чертежи и чертежи гнутых деталей с видами, разрезами и размерами</li>
+      <li><b>Ведомости</b> — настоящие .xlsx, каждый файл сверяется с ведомостью перед отправкой</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================================ CASE STUDY -->
+<section class="section alt" id="case">
+  <div class="wrap">
+    <h2>Кейс: команда конструкторов металлоконструкций</h2>
+    <p class="section-lead">Одна выдача в производство одним конструктором: около 3,5 часа вручную и около 30 минут с инструментами.</p>
+    <div class="case-steps">
+      <div class="card">
+        <p class="case-label">Задача</p>
+        <p>Каждый шаг делался вручную или через несколько программ. Создавались чертежи пластин, марки
+          передвигались вручную, затем чертежи печатались. Трубы проходили через встроенный в Tekla MultiConverter,
+          потом через скрипты Grasshopper, чтобы выпрямить косые резы и добавить гравировку. Сборочные чертежи
+          делались по одному.</p>
+      </div>
+      <div class="card">
+        <p class="case-label">Решение</p>
+        <p>Три связанных инструмента, которые запускаются прямо из Tekla: Report checker для пластин и ведомостей,
+          Convertstp для труб, Drawer для чертежей. Косые резы выпрямляются, а марки гравируются автоматически,
+          результат сверяется с ведомостями, поэтому человеку больше не нужно ловить расхождения глазами.</p>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="case-table">
+        <thead>
+          <tr><th scope="col">Этап</th><th scope="col">Объём</th><th scope="col">До</th><th scope="col">После</th><th scope="col">Примечание</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Файлы для раскроя листа</th><td>300 пластин</td><td>≈ 30 мин</td><td class="after">≈ 6 мин</td><td class="note">5 мин автоматически и 1 мин на проверку, которая редко нужна</td></tr>
+          <tr><th scope="row">Файлы для трубореза</th><td>140 труб</td><td>≈ 1 час</td><td class="after">≈ 12 мин</td><td class="note">косые резы выпрямляются и марки гравируются автоматически</td></tr>
+          <tr><th scope="row">Сборочные чертежи</th><td>100 сборок</td><td>≈ 2 часа</td><td class="after">≈ 12 мин</td><td class="note">чертежи получаются почти готовыми</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><th scope="row">Одна выдача</th><td>один конструктор</td><td>≈ 3,5 часа</td><td class="after">≈ 30 мин</td><td class="note">примерно в 7 раз быстрее</td></tr>
+        </tfoot>
+      </table>
+    </div>
+    <p class="case-note"><b>Откуда эти цифры.</b> Время — практическая оценка одного конструктора для выдачи
+      с объёмами, указанными в таблице, а не хронометраж. В команде было около 10 конструкторов, и каждый выдавал
+      данные в производство 3–4 раза в месяц. Около 3 часов экономии на выдаче дают 9–12 часов в месяц на
+      конструктора, или примерно 90–120 часов на команду.</p>
+  </div>
+</section>
+
+<!-- ============================================================ SERVICES -->
+<section class="section" id="services">
+  <div class="wrap">
+    <h2>Услуги</h2>
+    <p class="section-lead">Что я могу для вас сделать. Любой инструмент с этой страницы можно адаптировать под
+      ваш проект, ваши задачи и то, как работает ваше производство.</p>
+    <div class="advantage">
+      <h3>Инструменты под ваше производство, а не только универсальные</h3>
+      <p>Универсальные инструменты закрывают типовой случай, а всё остальное оставляют на ручную работу. Я беру
+        инструменты, которые вы видите здесь, и настраиваю их под ваше производство со всеми нюансами: ваше
+        именование деталей, структуру папок, станки, стандарты чертежей и проверки. В этом моё преимущество:
+        вы получаете инструмент под свои задачи, а не перестраиваете работу под чужую программу.</p>
+    </div>
+    <div class="cards">
+      <div class="card service">
+        <p class="case-label">С чего начать · со скидкой</p>
+        <h3>Пилотный проект</h3>
+        <p>1–2 недели и понятный результат на ваших собственных задачах, со скидкой — чтобы вы могли оценить
+          работу, прежде чем браться за большее.</p>
+      </div>
+      <div class="card service">
+        <h3>Адаптация и разработка</h3>
+        <p>Инструменты с этой страницы, настроенные под ваш проект, или новые выгрузки, чертежи, отчёты,
+          проверки, плагины и макросы, построенные вокруг того, как на самом деле работают ваша команда и завод.</p>
+      </div>
+      <div class="card service">
+        <h3>Поддержка и обновления</h3>
+        <p>Исправления, доработки по мере изменения ваших процессов и обновления под новые версии Tekla.</p>
+      </div>
+    </div>
+    <p class="service-cta"><a class="btn" href="mailto:kwazamentor@gmail.com?subject=%D0%9F%D0%B8%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20Tekla">Обсудить пилот со скидкой</a></p>
+  </div>
+</section>
+
+<!-- ============================================================ WORKFLOW -->
+<section class="section alt" id="workflow">
+  <div class="wrap">
+    <h2>Одна модель, один клик на каждый шаг</h2>
+    <p class="section-lead">Каждый инструмент запускается с панели Tekla, читает текущий выбор через Open API
+      и пишет прямо в папку проекта, которую получает завод.</p>
+    <div class="pipeline">
+      <div class="stage">
+        <span class="stage-num">1</span>
+        <h3>Модель Tekla</h3>
+        <p>Выберите пластины, трубы или сборки — или откройте список чертежей.</p>
+      </div>
+      <div class="stage">
+        <img src="../assets/img/icon-report-checker.png" alt="Иконка Report checker" width="48" height="48">
+        <h3>Report checker</h3>
+        <p>DXF для раскроя листа, ведомости в .xlsx, проверки, бирки, структура папок.</p>
+      </div>
+      <div class="stage">
+        <img src="../assets/img/icon-convertstp.png" alt="Иконка Convertstp" width="48" height="48">
+        <h3>Convertstp</h3>
+        <p>STEP / IGES для трубореза с гравировкой марок.</p>
+      </div>
+      <div class="stage">
+        <img src="../assets/img/icon-drawer.png" alt="Иконка Drawer" width="48" height="48">
+        <h3>Drawer</h3>
+        <p>Сборочные чертежи и чертежи гнутых деталей строятся и образмериваются автоматически.</p>
+      </div>
+      <div class="stage">
+        <span class="stage-num">✓</span>
+        <h3>Комплект для завода</h3>
+        <p>Сверен с ведомостями, расхождения подсвечиваются в модели.</p>
+      </div>
+    </div>
+<pre class="tree"><code>Проект\
+  0. Ведомости\                 0. Отправочные марки · 1. Листовые детали · 2. Профильные детали · 4. Сборки · 6. Металл
+  1. Детали\
+     1. Раскрой листа\          Сталь С245\6 мм\1235_6мм_1шт.dxf
+     2. Раскрой профиля\        С245\Труба квадратная\60x60x2\F1-1-10896_60x60x2_892.97мм_1шт.stp
+  Бирки\                        по одному .dxf на отправочную марку + список бирок</code></pre>
+  </div>
+</section>
+
+<!-- ============================================================ TOOLS -->
+<section class="section" id="tools">
+  <div class="wrap">
+    <h2>Инструменты</h2>
+    <p class="section-lead">Три настольных приложения для ежедневной работы на производстве. Скриншоты ниже —
+      настоящие программы; на них показан английский вариант интерфейса.</p>
+  </div>
+
+  <!-- Report checker -->
+  <article class="tool wrap" id="report-checker">
+    <div class="tool-head">
+      <img src="../assets/img/icon-report-checker.png" alt="Иконка Report checker" width="64" height="64">
+      <div>
+        <h3>Report checker</h3>
+        <p class="tool-sub">Выгрузка пластин в DXF, отчёты Tekla в .xlsx и сверки · Python + помощник на C#</p>
+      </div>
+    </div>
+    <div class="tool-grid">
+      <figure class="shot">
+        <a href="../assets/img/otchet-ui.png" class="zoom"><img src="../assets/img/otchet-ui.png" alt="Главное окно Report checker: выгрузка DXF, отчёты, проверки и журнал" loading="lazy"></a>
+        <figcaption>Главное окно: настройки выгрузки DXF, шаблоны отчётов, проверки и цветной журнал.</figcaption>
+      </figure>
+      <div class="tool-text">
+        <ul class="features">
+          <li><b>DXF прямо из модели.</b> Консольный помощник на C# управляет Tekla через Open API: Tekla пишет
+            DSTV (NC1) для выбранных пластин, а помощник переводит их в DXF R12 — контур, вырезы, круглые и
+            овальные отверстия на отдельных слоях.</li>
+          <li><b>Марка никогда не попадает на отверстие.</b> Марка позиции ставится в самое большое свободное
+            место пластины и при необходимости уменьшается; отдельная функция переносит марки, которые
+            пересекают геометрию в уже готовых файлах.</li>
+          <li><b>Отчёты без макросов Excel.</b> Шаблоны отчётов Tekla запускаются по выбору и пересохраняются как
+            оформленные .xlsx (сама Tekla пишет только HTML с расширением «.xls»).</li>
+          <li><b>Проверки, которые ведут обратно в модель.</b> Папки DXF и STEP сверяются с ведомостями —
+            недостающие, лишние файлы и файлы с неверным количеством выводятся списком, а детали
+            <i>выбираются в Tekla</i>.</li>
+          <li><b>Папки, готовые для завода.</b> Файлы переименовываются в <code>позиция_толщина_кол-во</code>,
+            раскладываются по маркам стали, толщинам, типам труб и профилям; бирки формируются в DXF.</li>
+          <li><b>Все версии Tekla с 2016.</b> Сборки Open API загружаются из запущенной Tekla, при старой и
+            новой структуре папок, поэтому один exe работает у всей команды.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tool-grid reverse">
+      <figure class="shot">
+        <a href="../assets/img/otchet-viewer.png" class="zoom"><img src="../assets/img/otchet-viewer.png" alt="Просмотрщик DXF с контуром пластины, отверстиями и маркой позиции" loading="lazy"></a>
+        <figcaption>Встроенный просмотрщик DXF: все пластины из папки раскроя, марки проверены на пересечения.</figcaption>
+      </figure>
+      <div class="video-slot has-video"><iframe src="https://www.youtube-nocookie.com/embed/R72VR7GYjIA" title="Report checker: выгрузка пластин в DXF, ведомости в Excel и автоматические проверки" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+  </article>
+
+  <!-- Convertstp -->
+  <article class="tool wrap" id="convertstp">
+    <div class="tool-head">
+      <img src="../assets/img/icon-convertstp.png" alt="Иконка Convertstp" width="64" height="64">
+      <div>
+        <h3>Convertstp</h3>
+        <p class="tool-sub">Трубы из Tekla → STEP / IGES для лазерной резки труб · C# WinForms</p>
+      </div>
+    </div>
+    <div class="tool-grid">
+      <figure class="shot">
+        <a href="../assets/img/convertstp-ui.png" class="zoom"><img src="../assets/img/convertstp-ui.png" alt="Главное окно Convertstp со списком труб, настройками гравировки и журналом выгрузки" loading="lazy"></a>
+        <figcaption>Анализ выбора, настройки выгрузки, гравировка марок и журнал выгрузки.</figcaption>
+      </figure>
+      <div class="tool-text">
+        <ul class="features">
+          <li><b>Настоящая геометрия, а не догадка по профилю.</b> Каждая труба проходит через собственный
+            экспорт IFC в Tekla, переносится в локальную систему координат детали и переводится в STEP или IGES
+            (IfcConvert и собственный модуль записи IGES с обрезанными гранями и точными дугами).</li>
+          <li><b>Технологичные резы.</b> Косые резы стенки, которые лазер не может выполнить, выпрямляются;
+            седловые резы, пазы под пластины и пересечения круглых труб обрабатываются отдельно.</li>
+          <li><b>Гравировка в геометрии.</b> Марка детали вырезается на широкой грани трубы — по поверхности
+            или насквозь через стенку, — а модель Tekla при этом не меняется.</li>
+          <li><b>Предпросмотр всей партии.</b> HTML-страница показывает каждую трубу в масштабе с ползунками
+            и индивидуальными настройками и предупреждает, если текст попадает на вырез.</li>
+          <li><b>Производственные детали.</b> Одинаковые детали группируются, имена файлов задаются шаблоном,
+            несколько запущенных Tekla определяются, и нужный канал Open API выбирается автоматически.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tool-grid reverse">
+      <figure class="shot">
+        <a href="../assets/img/convertstp-engraving.png" class="zoom"><img src="../assets/img/convertstp-engraving.png" alt="Предпросмотр гравировки партии с гранями труб и марками" loading="lazy"></a>
+        <figcaption>Предпросмотр гравировки: грани труб в масштабе с выгравированными марками.</figcaption>
+      </figure>
+      <div class="video-slot has-video"><iframe src="https://www.youtube-nocookie.com/embed/OGKl_QOARAg" title="Convertstp: трубы из Tekla в STEP и IGES с гравировкой марок" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+  </article>
+
+  <!-- Drawer -->
+  <article class="tool wrap" id="drawer">
+    <div class="tool-head">
+      <img src="../assets/img/icon-drawer.png" alt="Иконка Drawer" width="64" height="64">
+      <div>
+        <h3>Drawer</h3>
+        <p class="tool-sub">Автоматические сборочные чертежи и чертежи гнутых деталей · C# · Tekla Drawing API</p>
+      </div>
+    </div>
+    <div class="tool-grid">
+      <figure class="shot">
+        <a href="../assets/img/drawer-ui.png" class="zoom"><img src="../assets/img/drawer-ui.png" alt="Настройки Drawer для гнутых деталей и сборок" loading="lazy"></a>
+        <figcaption>Настройки видов, разрезов и размеров для гнутых деталей и сборок.</figcaption>
+      </figure>
+      <div class="tool-text">
+        <ul class="features">
+          <li><b>Сборочные чертежи за один проход.</b> Главный вид, виды сверху и снизу, автоматические разрезы
+            по каждому узлу, 3D-вид, марки деталей на всех видах и формат листа, подобранный по размеру.</li>
+          <li><b>Перестроить, а не перечертить.</b> У выбранных чертежей после изменений в модели заново
+            создаются виды и размеры; для выбранных деталей создаются новые чертежи.</li>
+          <li><b>Гнутые детали как надо.</b> Развёртка с образмеренными линиями гиба и виды гнутой детали
+            с габаритами и радиусом гиба.</li>
+          <li><b>Стандарты компании соблюдаются.</b> Используются файлы свойств видов, разрезов, размеров и
+            компоновки, принятые в команде; по желанию — PDF для каждого чертежа.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure class="shot">
+        <a href="../assets/img/drawer-assembly.png" class="zoom"><img src="../assets/img/drawer-assembly.png" alt="Созданный сборочный чертёж с разрезами и размерами" loading="lazy"></a>
+        <figcaption>Созданный сборочный чертёж: главный вид и вид сверху, шесть разрезов, размеры и 3D-вид.</figcaption>
+      </figure>
+      <figure class="shot">
+        <a href="../assets/img/drawer-bent.png" class="zoom"><img src="../assets/img/drawer-bent.png" alt="Чертёж гнутой пластины с развёрткой, линией гиба и радиусом" loading="lazy"></a>
+        <figcaption>Гнутая пластина: развёртка с линией гиба, боковые виды с радиусом, 3D-вид.</figcaption>
+      </figure>
+      <div class="video-slot has-video"><iframe src="https://www.youtube-nocookie.com/embed/fczEOQlvuvE" title="Drawer: автоматические сборочные чертежи и чертежи гнутых деталей в Tekla" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+  </article>
+</section>
+
+<!-- ============================================================ TEKLA INTEGRATION -->
+<section class="section alt" id="tekla">
+  <div class="wrap">
+    <h2>Встроено в Tekla, раздаётся из одной папки</h2>
+    <p class="section-lead">Вся команда работает на одних и тех же версиях без установщиков: общая папка на
+      сервере, макросы-запускалки и своя вкладка в <i>Приложениях и компонентах</i>.</p>
+
+    <div class="icons-row">
+      <figure><img src="../assets/img/icon-report-checker.png" alt="Иконка Report checker" width="72" height="72"><figcaption>Report checker</figcaption></figure>
+      <figure><img src="../assets/img/icon-convertstp.png" alt="Иконка Convertstp" width="72" height="72"><figcaption>Convertstp</figcaption></figure>
+      <figure><img src="../assets/img/icon-drawer.png" alt="Иконка Drawer" width="72" height="72"><figcaption>Drawer</figcaption></figure>
+      <figure><img src="../assets/img/icon-import-components.png" alt="Иконка макроса импорта компонентов" width="72" height="72"><figcaption>Импорт компонентов</figcaption></figure>
+      <figure><img src="../assets/img/icon-import-plugins.png" alt="Иконка макроса импорта плагинов" width="72" height="72"><figcaption>Импорт плагинов</figcaption></figure>
+    </div>
+    <p class="caption-center">Собственные иконки макросов во вкладке компании в каталоге Tekla.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Макросы-запускалки</h3>
+        <p>Маленький макрос на C# копирует exe с сервера в <code>%LOCALAPPDATA%</code>, только если копия на
+          сервере новее, и запускает его. Файл на сервере никогда не блокируется, поэтому новую версию можно
+          выложить в любой момент — она подхватится при следующем запуске.</p>
+      </div>
+      <div class="card">
+        <h3>Вкладка компании в каталоге</h3>
+        <p>Собственный <code>*_ComponentCatalog.ac.xml</code> в папке фирмы добавляет вкладку с инструментами,
+          общими компонентами и плагинами — с миниатюрами — в каждую модель у каждого пользователя.</p>
+      </div>
+      <div class="card">
+        <h3>Общие компоненты</h3>
+        <p>Макрос импорта переносит пользовательские компоненты <code>.uel</code> из папки фирмы в открытую
+          модель, никогда не перезаписывает уже существующие в ней компоненты, копирует миниатюры и предлагает
+          сохранить модель.</p>
+      </div>
+      <div class="card">
+        <h3>Общие плагины</h3>
+        <p>DLL плагинов раздаются на каждое рабочее место. Имена читаются из атрибута
+          <code>[Plugin]</code> через загрузку только для чтения метаданных, а уже установленный плагин никогда
+          не заменяется — поэтому существующие детали не перестраиваются и нумерация не ломается.</p>
+      </div>
+      <div class="card">
+        <h3>Папка фирмы и шаблоны</h3>
+        <p>Одна папка <code>XS_FIRM</code> для атрибутов, шаблонов отчётов, чертежей и марок, подключённая
+          в расширенных параметрах каждой модели, — с учётом ловушек, когда Tekla перезаписывает
+          <code>options.ini</code>.</p>
+      </div>
+      <div class="card">
+        <h3>Публикация</h3>
+        <p>Скрипт публикации копирует exe через временный файл и обновляет макросы и иконки, только когда меняется
+          их хеш, поэтому пользователи никогда не получают недописанный файл.</p>
+      </div>
+    </div>
+
+    <details class="code-block">
+      <summary>Макрос-запускалка (C#, Tekla Akit) — схема, по которой работает каждая кнопка на панели</summary>
+<pre><code><span class="c">// Запускает инструмент из общей папки макросов. Exe копируется в
+// %LOCALAPPDATA% и запускается оттуда, поэтому копия на сервере не блокируется
+// и её можно заменить в любой момент.</span>
+<span class="k">public static void</span> Run(Tekla.Technology.Akit.IScript akit)
+{
+    <span class="k">string</span> localDir = Path.Combine(Environment.GetFolderPath(
+        Environment.SpecialFolder.LocalApplicationData), AppName);
+    <span class="k">string</span> localExe = Path.Combine(localDir, AppName + <span class="s">".exe"</span>);
+    <span class="k">try</span>
+    {
+        Directory.CreateDirectory(localDir);
+        <span class="k">if</span> (NeedsUpdate(ServerExe, localExe))
+        {
+            <span class="c">// сначала во временный файл: обрыв сети не испортит рабочую копию</span>
+            <span class="k">string</span> temp = localExe + <span class="s">".new"</span>;
+            File.Copy(ServerExe, temp, <span class="k">true</span>);
+            File.SetLastWriteTimeUtc(temp, File.GetLastWriteTimeUtc(ServerExe));
+            <span class="k">try</span> { File.Delete(localExe); File.Move(temp, localExe); }
+            <span class="k">catch</span> (IOException) { } <span class="c">// старая версия ещё открыта — обновится в следующий раз</span>
+        }
+    }
+    <span class="k">catch</span> (Exception) { } <span class="c">// сервер недоступен — запускаем последнюю скопированную версию</span>
+    Process.Start(<span class="k">new</span> ProcessStartInfo(localExe) { WorkingDirectory = localDir, UseShellExecute = <span class="k">true</span> });
+}</code></pre>
+    </details>
+  </div>
+</section>
+
+<!-- ============================================================ PLUGINS -->
+<section class="section" id="plugins">
+  <div class="wrap two-col">
+    <div>
+      <h2>Плагины и макросы</h2>
+      <p>Десять собственных плагинов Tekla (<code>PluginBase</code> с диалогами на WPF) моделируют узлы, которые
+        команда повторяет сотни раз, поэтому они ставятся за секунды и всегда получаются одинаковыми.</p>
+      <ul class="checklist">
+        <li><b>Плагины кронштейнов</b> — гнутый уголок-кронштейн между двумя трубами каркаса или в указанной
+          точке: полки ложатся на грани элементов, линия гиба и расстановка отверстий рассчитываются, болты
+          добавляются.</li>
+        <li><b>Плагины узлов ферм</b> — семейство узлов для трубчатых ферм в четырёх вариантах.</li>
+        <li><b>Вырезы текста и профиля</b> — гравировка текста и вырезы по форме профиля в пластинах.</li>
+        <li><b>Расстановка точек</b> и <b>инспектор</b> для проверки параметров узлов в модели.</li>
+        <li><b>Макросы автоматизации интерфейса</b> — например, скрытие переменных расстояний в редакторе
+          пользовательских компонентов через Win32, когда API не даёт такой возможности.</li>
+      </ul>
+    </div>
+    <div class="card plugin-card">
+      <img src="../assets/img/icon-import-plugins.png" alt="Иконка макроса импорта плагинов" width="96" height="96">
+      <h3>Почему это важно</h3>
+      <p>Плагин пересчитывается при каждом изменении модели. Если подложить на рабочее место новую версию
+        плагина посреди проекта, детали могут незаметно перестроиться, а нумерация сломаться, — поэтому макрос
+        раздачи только добавляет недостающие плагины и никогда не трогает установленные.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ STACK -->
+<section class="section alt" id="stack">
+  <div class="wrap">
+    <h2>Технологии</h2>
+    <div class="stack">
+      <div><h3>Tekla Open API</h3><p>Model, Drawing, Catalogs, Plugins, макросы Akit, экспорт NC/DSTV и IFC,
+        каналы remoting, многопользовательские модели</p></div>
+      <div><h3>C# / .NET Framework 4.8</h3><p>WinForms и WPF, DPI для каждого монитора, загрузка сборок только
+        для чтения метаданных, взаимодействие с Win32</p></div>
+      <div><h3>Python</h3><p>tkinter, openpyxl, сборка в один файл через PyInstaller, связка с C# через subprocess</p></div>
+      <div><h3>CAD-форматы</h3><p>Запись и чтение DXF R12, DSTV/NC1, переписывание IFC, чтение STEP,
+        запись IGES, NURBS и B-сплайны</p></div>
+      <div><h3>Геометрия</h3><p>Отсечение полигонов, поиск свободного места под марку, аппроксимация эллипсом,
+        контуры текста из шрифтов TrueType</p></div>
+      <div><h3>Развёртывание</h3><p>Общая папка на сервере, макросы-запускалки, папка фирмы, вкладки каталога,
+        скрипты публикации</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ FAQ -->
+<section class="section" id="faq">
+  <div class="wrap faq">
+    <h2>Вопросы и ответы</h2>
+    <details open>
+      <summary>Какие версии Tekla вы поддерживаете?</summary>
+      <p>Все версии Tekla Structures начиная с 2016, включая актуальные.</p>
+    </details>
+    <details>
+      <summary>Нужен ли доступ к нашей модели? Подпишете NDA?</summary>
+      <p>Для пилота нужны только данные по задаче, которую он охватывает, — не обязательно вся модель. Если ваши
+        данные конфиденциальны, напишите об этом в первом сообщении, и мы согласуем NDA до того, как вы что-либо
+        пришлёте.</p>
+    </details>
+    <details>
+      <summary>Кому принадлежит код?</summary>
+      <p>Права собственности и использования согласуются письменно до начала работы.</p>
+    </details>
+    <details>
+      <summary>Как происходит оплата?</summary>
+      <p>Объём работ, цена и условия оплаты согласуются для каждого проекта до начала работы.</p>
+    </details>
+    <details>
+      <summary>На каком языке и в каком часовом поясе вы работаете?</summary>
+      <p>На русском и английском, часовой пояс UTC+3.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ============================================================ ABOUT -->
+<section class="section alt" id="about">
+  <div class="wrap about">
+    <div>
+      <h2>Обо мне</h2>
+      <p class="about-name">Дмитрий Калинин</p>
+      <p>Почти 10 лет конструктором металлоконструкций в Tekla и 3 года разработчиком для Tekla. Я делаю эти
+        инструменты с точки зрения человека, которому нужно вовремя выдать данные в производство.</p>
+      <p>Хотите посмотреть, как выглядит код? <a href="https://github.com/AmberKnightor/tekla-plate-dxf-export" target="_blank" rel="noopener">tekla-plate-dxf-export</a>
+        на GitHub — небольшой рабочий пример: выгрузка пластин из Tekla в DXF.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ CONTACT -->
+<section class="section contact" id="contact">
+  <div class="wrap contact-box">
+    <h2>Нужна автоматизация Tekla?</h2>
+    <p>Выгрузки, чертежи, отчёты, плагины или развёртывание, которое просто работает у всей команды, — давайте обсудим.</p>
+    <div class="contact-actions">
+      <a class="btn" href="mailto:kwazamentor@gmail.com">kwazamentor@gmail.com</a>
+      <a class="btn btn-light" href="https://www.linkedin.com/in/dmitriy-kalinin-3915b3165/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-light" href="https://github.com/AmberKnightor" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="contact-alt">Удобнее в мессенджере? <a href="https://t.me/AmberKnightor" target="_blank" rel="noopener">Telegram @AmberKnightor</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">© <span id="year">2026</span> AmberKnightor · инструменты, плагины и макросы для Tekla Structures.
+    Tekla — товарный знак Trimble Inc.; это независимое портфолио.</div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Закрыть">×</button>
+  <img alt="Увеличенный скриншот">
+</div>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
