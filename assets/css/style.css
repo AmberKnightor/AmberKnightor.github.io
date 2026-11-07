@@ -192,6 +192,11 @@ h1 { font-size: clamp(2rem, 4.6vw, 3.3rem); letter-spacing: -.03em; font-weight:
 .plugin-card img { border-radius: 10px; margin-bottom: 14px; }
 .plugin-card p { color: var(--muted); margin: 0; }
 #plugins .checklist { margin-top: 18px; }
+.plugins-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 360px); gap: 48px; align-items: start; }
+@media (max-width: 900px) { .plugins-grid { grid-template-columns: 1fr; } .plugins-shot { max-width: 420px; } }
+#plugins .plugin-card { display: flex; gap: 18px; align-items: flex-start; margin-top: 22px; }
+#plugins .plugin-card img { flex: none; margin: 0; }
+#plugins .plugin-card h3 { margin-bottom: .35em; }
 
 .stack { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 @media (max-width: 860px) { .stack { grid-template-columns: 1fr 1fr; } }

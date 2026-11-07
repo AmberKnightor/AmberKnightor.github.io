@@ -458,28 +458,35 @@
 
 <!-- ============================================================ PLUGINS -->
 <section class="section" id="plugins">
-  <div class="wrap two-col">
+  <div class="wrap plugins-grid">
     <div>
       <h2>Plugins &amp; macros</h2>
-      <p>Ten custom Tekla plugins (<code>PluginBase</code> with WPF dialogs) model the connections the team
-        repeats hundreds of times, so they are placed in seconds and always come out the same.</p>
+      <p class="section-lead">I can build almost any connection plugin for your model, and it will work far better
+        than custom components.</p>
+      <p>The screenshot shows two of my plugins. Both connect round and rectangular tubes that sit in space at
+        different angles in all three planes. The first one builds a bracket, the second one a hanger. Each plugin
+        reads the actual angles between the members and builds every part from them.</p>
       <ul class="checklist">
-        <li><b>Bracket plugins</b> — a bent angle bracket between two frame tubes or at a picked point:
-          flanges laid on the member faces, bend line and hole pattern calculated, bolts added.</li>
-        <li><b>Truss joint plugins</b> — a family of joints for tube trusses in four variants.</li>
-        <li><b>Text and profile cut-outs</b> — engraved text and profile-shaped cuts in plates.</li>
-        <li><b>Point placement</b> and an <b>inspector</b> for checking joint parameters in the model.</li>
-        <li><b>UI automation macros</b> — e.g. hiding distance variables in the custom component editor
-          through Win32 when the API offers no way.</li>
+        <li><b>Hard to do with components.</b> The same result from custom components would take a lot of time and a
+          combination of several of them (connection, seam, detail), and it would still be awkward to use.</li>
+        <li><b>Built in code, so it is exact.</b> All the geometry is calculated by the program, so the parts come out
+          more accurate and the connection is simpler to place and change.</li>
+        <li><b>Two clicks.</b> Pick the first member, pick the second, and a correct connection is created.</li>
       </ul>
+      <div class="card plugin-card">
+        <img src="assets/img/icon-import-plugins.png" alt="Import plugins macro icon" width="64" height="64">
+        <div>
+          <h3>Plugins on every computer</h3>
+          <p>A separate macro loads all connection plugins from the firm folder onto each workstation, so the whole
+            team models with the same set. Plugins that are already installed are never replaced, so existing parts
+            are not rebuilt and numbering stays intact.</p>
+        </div>
+      </div>
     </div>
-    <div class="card plugin-card">
-      <img src="assets/img/icon-import-plugins.png" alt="Import plugins macro icon" width="96" height="96">
-      <h3>Why it matters</h3>
-      <p>A plugin re-runs whenever the model changes. Shipping a new plugin version to a workstation in the
-        middle of a project could silently rebuild parts and break part numbering — so the distribution
-        macro only adds plugins that are missing and never touches installed ones.</p>
-    </div>
+    <figure class="shot plugins-shot">
+      <a href="assets/img/plugins-bracket-hanger.jpg" class="zoom"><img src="assets/img/plugins-bracket-hanger.jpg" alt="Two connection plugins in a Tekla model: a bracket and a hanger between tubes at different angles" width="636" height="1005" loading="lazy"></a>
+      <figcaption>Plugin 1 builds a bracket, plugin 2 a hanger, both between tubes at different angles in three planes.</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -537,8 +544,10 @@
     <div>
       <h2>About me</h2>
       <p class="about-name">Dmitriy Kalinin</p>
-      <p>Almost 10 years as a steel structures designer in Tekla and 3 years as a Tekla developer. I build these
-        tools from the point of view of the person who has to release the data to the factory on time.</p>
+      <p>For almost 10 years I have worked as a steel structures designer in Tekla, and for 3 years as a developer
+        of plugins and programs for Tekla. I build every automation tool on my own extensive experience of designing
+        and modelling steel structures. I know the whole kitchen from the inside, so I know exactly how the modelling
+        and the export of data from the model are best automated.</p>
             <p>Want to see how the code looks? <a href="https://github.com/AmberKnightor/tekla-plate-dxf-export" target="_blank" rel="noopener">tekla-plate-dxf-export</a>
         on GitHub is a small working sample: plate export from Tekla to DXF.</p>
     </div>
