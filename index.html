@@ -488,6 +488,30 @@
       <figcaption>Plugin 1 builds a bracket, plugin 2 a hanger, both between tubes at different angles in three planes.</figcaption>
     </figure>
   </div>
+  <div class="wrap soffit-demo">
+    <h3 id="soffit-title">Soffit support frame — Zone 11</h3>
+    <p>Every connection in this model was created by a Tekla plugin. I developed six connection types for this support frame.</p>
+    <div class="soffit-viewer" data-model-src="assets/img/soffit-11.glb" data-alt="Steel soffit support frame with yellow linked tubes, cross-members, brackets and hangers"
+      data-loading="Loading 3D model…" data-error="The 3D model could not be loaded. You can try again.">
+      <div class="soffit-viewport">
+        <img class="soffit-poster" src="assets/img/soffit-11.webp" alt="Steel soffit support frame with yellow linked tubes, cross-members, brackets and hangers" width="1280" height="680" loading="lazy">
+      </div>
+      <div class="soffit-controls">
+        <button class="btn" type="button" hidden>Open 3D model</button>
+        <p class="soffit-status" role="status"></p>
+        <p class="soffit-hint" hidden>Drag to rotate the model. Scroll or pinch to zoom.</p>
+      </div>
+    </div>
+    <h4>Six connection types</h4>
+    <ol class="soffit-types">
+      <li><b>Linked tubes on brackets</b>The yellow tubes rest on brackets that clamp onto the existing steelwork.</li>
+      <li><b>Cross tube</b>The plugin places a tube across the other tubes.</li>
+      <li><b>Hanger</b>The plugin builds a hanger to fit the geometry of the selected members.</li>
+      <li><b>Single bracket with hanger</b>The plugin builds one bracket together with its hanger.</li>
+      <li><b>Rectangular-section connection</b>The plugin joins two rectangular-section members.</li>
+      <li><b>Clamped connection</b>The plugin uses clamps to attach members to the cross-beams.</li>
+    </ol>
+  </div>
 </section>
 
 <!-- ============================================================ STACK -->
@@ -581,5 +605,6 @@
 </div>
 
 <script src="assets/js/main.js"></script>
+<script type="module" src="assets/js/soffit-viewer.js"></script>
 </body>
 </html>

@@ -264,3 +264,24 @@ h1 { font-size: clamp(2rem, 4.6vw, 3.3rem); letter-spacing: -.03em; font-weight:
 .lightbox-close { position: absolute; top: 14px; right: 20px; font-size: 2.2rem; color: #fff; background: none; border: 0; cursor: pointer; }
 
 @media (prefers-reduced-motion: reduce) { .bar-fill { animation: none; } html { scroll-behavior: auto; } }
+
+.soffit-demo { margin-top: 48px; }
+.soffit-demo > p { max-width: 72ch; }
+.soffit-demo h4 { margin: 24px 0 12px; }
+.soffit-viewport {
+  height: clamp(280px, 50vw, 540px); position: relative; overflow: hidden;
+  background: #e9eef4; border: 1px solid var(--line); border-radius: var(--radius);
+}
+.soffit-viewport > * { position: absolute; inset: 0; width: 100%; height: 100%; }
+.soffit-poster { object-fit: contain; }
+.soffit-viewport model-viewer { opacity: 0; background: #e9eef4; }
+.soffit-viewport model-viewer.is-ready { opacity: 1; }
+.soffit-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; padding-top: 12px; }
+.soffit-controls [hidden] { display: none; }
+.soffit-controls button { border: 0; cursor: pointer; font-family: inherit; }
+.soffit-controls button:disabled { cursor: progress; }
+.soffit-controls p { margin: 0; color: var(--muted); }
+.soffit-status:empty { display: none; }
+.soffit-types { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 36px; padding-left: 1.6em; }
+.soffit-types b { display: block; }
+@media (max-width: 620px) { .soffit-types { grid-template-columns: 1fr; } }
