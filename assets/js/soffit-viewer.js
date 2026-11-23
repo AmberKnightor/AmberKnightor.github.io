@@ -1,4 +1,4 @@
-const viewer = document.querySelector('.soffit-viewer');
+﻿const viewer = document.querySelector('.soffit-viewer');
 const button = viewer.querySelector('button');
 const viewport = viewer.querySelector('.soffit-viewport');
 const status = viewer.querySelector('.soffit-status');
@@ -17,7 +17,11 @@ button.addEventListener('click', async () => {
     model = document.createElement('model-viewer');
     model.alt = viewer.dataset.alt;
     model.setAttribute('camera-controls', '');
-    model.setAttribute('camera-orbit', '35deg 63deg ' + (viewport.clientWidth < 620 ? '100%' : '70%'));
+    model.setAttribute('camera-orbit', '35deg 63deg ' + (viewport.clientWidth < 620 ? '100%' : '83%'));
+    model.setAttribute('min-camera-orbit', 'auto auto 8%');
+    model.setAttribute('min-field-of-view', '6deg');
+    model.setAttribute('tone-mapping', 'neutral');
+    model.setAttribute('exposure', '0.78');
     model.setAttribute('touch-action', 'pan-y');
     model.setAttribute('interaction-prompt', 'none');
 
